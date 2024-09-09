@@ -1,0 +1,182 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  font-family: sans-serif;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+section {
+  padding: 20px 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Page 1 */
+.section-home {
+  background-color: black;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.content p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.sub-header {
+  padding-top: 5px;
+}
+
+.header {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("assets/pfp.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-container {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.my-button:hover {
+  background-color: #ddd;
+  transform: scale(1.05);
+}
+
+.my-button:active {
+  background-color: white;
+  transform: scale(1);
+}
+
+/* Page 2 */
+.section-services {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  color: black;
+}
+
+.card-section {
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  padding: 20px 90px 50px 90px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  background-color: #ddd;
+  transform: scale(1.05);
+}
+
+.card:active {
+  background-color: white;
+  transform: scale(1);
+}
+
+.card-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.card-description {
+  padding: 20px;
+}
+
+.card-description h3 {
+  margin-top: 0;
+  font-size: 15;
+}
+
+.card-description p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Page 3 */
+.section-contact {
+  background-color: white;
+  color: white;
+  padding-left: 30px;
+}
